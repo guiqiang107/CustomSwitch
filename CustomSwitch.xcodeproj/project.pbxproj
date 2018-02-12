@@ -14,6 +14,7 @@
 		26CBEF3B2030479900FC606B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CBEF392030479900FC606B /* LaunchScreen.storyboard */; };
 		26CBEF462030479900FC606B /* CustomSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CBEF452030479900FC606B /* CustomSwitchTests.swift */; };
 		26CBEF512030479900FC606B /* CustomSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CBEF502030479900FC606B /* CustomSwitchUITests.swift */; };
+		26CBEF5F203047E200FC606B /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CBEF5E203047E200FC606B /* CustomSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		26CBEF2D2030479900FC606B /* CustomSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CBEF302030479900FC606B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26CBEF322030479900FC606B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26CBEF322030479900FC606B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		26CBEF352030479900FC606B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26CBEF372030479900FC606B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26CBEF3A2030479900FC606B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		26CBEF4C2030479900FC606B /* CustomSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CBEF502030479900FC606B /* CustomSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitchUITests.swift; sourceTree = "<group>"; };
 		26CBEF522030479900FC606B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CBEF5E203047E200FC606B /* CustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				26CBEF302030479900FC606B /* AppDelegate.swift */,
 				26CBEF322030479900FC606B /* ViewController.swift */,
+				26CBEF5E203047E200FC606B /* CustomSwitch.swift */,
 				26CBEF342030479900FC606B /* Main.storyboard */,
 				26CBEF372030479900FC606B /* Assets.xcassets */,
 				26CBEF392030479900FC606B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				26CBEF332030479900FC606B /* ViewController.swift in Sources */,
 				26CBEF312030479900FC606B /* AppDelegate.swift in Sources */,
+				26CBEF5F203047E200FC606B /* CustomSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XUMV3YM53U;
 				INFOPLIST_FILE = CustomSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyku.CustomSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XUMV3YM53U;
 				INFOPLIST_FILE = CustomSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyku.CustomSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
